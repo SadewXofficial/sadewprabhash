@@ -11,6 +11,34 @@
             background-color: #f9f9f9;
             padding: 50px;
         }
+
+        /* Navigation Buttons Style */
+        .nav-buttons {
+            margin-bottom: 20px;
+        }
+        .nav-buttons a {
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #333;
+            padding: 8px 20px;
+            margin: 0 5px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .nav-buttons a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Divider Line */
+        .hr-line {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px auto;
+            width: 80%;
+        }
+
         .profile-img {
             width: 150px;
             height: 150px;
@@ -18,7 +46,7 @@
             object-fit: cover;
             margin-bottom: 20px;
         }
-        h1 { margin: 0; }
+        h1 { margin: 10px 0; }
         p { color: #555; font-style: italic; }
         .social-links a {
             margin: 0 10px;
@@ -30,15 +58,24 @@
 </head>
 <body>
 
+    <!-- Navigation Buttons -->
+    <nav class="nav-buttons">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+    </nav>
+
+    <hr class="hr-line">
+
     <img src="assets/images/image01_v=39052a1a.jpg" alt="Profile" class="profile-img">
-    
+    
     <h1>SADEW PRABHASH</h1>
     <p>CONTENT CREATER</p>
 
     <div class="social-links">
-        <a href="#">Twitter</a> | 
-        <a href="#">Facebook</a> | 
-        <a href="#">GitHub</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Facebook</a> | 
+        <a href="#">GitHub</a> | 
         <a href="#">Instagram</a>
     </div>
 
